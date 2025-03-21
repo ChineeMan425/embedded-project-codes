@@ -13,9 +13,11 @@ https://randomnerdtutorials.com/arduino-color-sensor-tcs230-tcs3200/
 Keypad:
 https://arduinogetstarted.com/tutorials/arduino-keypad#content_wiring_diagram
 
-PIR motion sensor – working but not indented way. Staying on
-https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/using-a-pir-w-arduino
-https://cdn-learn.adafruit.com/downloads/pdf/pir-passive-infrared-proximity-motion-sensor.pdf
+HC SR501 PIR motion sensor:
+left to right pin outs (3pin): GND, signal ,VCC-5V
+potentiometers: left (sensitivity), right(time delay after detection)
+https://lastminuteengineers.com/pir-sensor-arduino-tutorial/
+
 
 
 
@@ -31,4 +33,4 @@ https://www.hackster.io/Hack-star-Arduino/learn-to-use-lcd-1602-i2c-parallel-wit
 Temperature and humidity sensor:
 https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-an-arduino/
 datasheet: https://www.circuitbasics.com/wp-content/uploads/2015/11/DHT11-Datasheet.pdf
-left to right pin outs (3pin) : signal, VCC , ground
+left to right pin outs (3pin) : signal, VCC-5V , ground

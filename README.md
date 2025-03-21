@@ -31,5 +31,4 @@ https://www.hackster.io/Hack-star-Arduino/learn-to-use-lcd-1602-i2c-parallel-wit
 Temperature and humidity sensor:
 https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-an-arduino/
 datasheet: https://www.circuitbasics.com/wp-content/uploads/2015/11/DHT11-Datasheet.pdf
-
 left to right pin outs (3pin) : signal, VCC , ground

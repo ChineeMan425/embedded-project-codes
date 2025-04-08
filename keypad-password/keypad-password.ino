@@ -18,8 +18,8 @@ char keys[ROW_NUM][COLUMN_NUM] = {
   {'*','0','#', 'D'}
 };
 
-byte pin_rows[ROW_NUM] = { 9, 8, 7, 6 };    //connect to the row pinouts of the keypad
-byte pin_column[COLUMN_NUM] = { 5, 4, 3 };  //connect to the column pinouts of the keypad
+byte pin_rows[ROW_NUM] = { 23, 25, 27, 29 };    //connect to the row pinouts of the keypad
+byte pin_column[COLUMN_NUM] = { 31, 33, 35,37 };  //connect to the column pinouts of the keypad
 
 Keypad keypad = Keypad(makeKeymap(keys), pin_rows, pin_column, ROW_NUM, COLUMN_NUM);
 
@@ -27,11 +27,13 @@ const String password = "2032";  // change your password here
 String input_password;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(4800);
   input_password.reserve(32);  // maximum input characters is 33, change if needed
 }
 
 void loop() {
+
+  
   char key = keypad.getKey();
 
   if (key) {

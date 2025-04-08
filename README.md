@@ -5,6 +5,11 @@ Designing a smart agri system to detect when a mango is ripe, not ripe or covere
 A motion sensor would be present to detect unwanted movement in the orchard. There is also a temperature and humidity sensor to check for the environment’s weather. 
 The Keypad would be used to reset the system.
 
+Libraries:
+DHTlib by rob tilaart
+Keypad by mark stanley
+liquidcrystal i2c by frank de brabander
+
 
 Colour detector:
 https://projecthub.arduino.cc/SurtrTech/color-detection-using-tcs3200230-a1e463

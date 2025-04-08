@@ -10,6 +10,11 @@ DHTlib by rob tilaart
 Keypad by mark stanley
 liquidcrystal i2c by frank de brabander
 
+Pin outs:
+![image](https://github.com/user-attachments/assets/2ac41270-fa67-4859-8508-8a2bb08912ba)
+
+
+
 
 Colour detector:
 https://projecthub.arduino.cc/SurtrTech/color-detection-using-tcs3200230-a1e463
